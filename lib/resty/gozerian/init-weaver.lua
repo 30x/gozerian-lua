@@ -20,7 +20,7 @@ ffi.cdef[[
   void GoSendResponseBodyChunk(
     unsigned int id, int last, const void* chunk, unsigned int len);
 ]]
-gobridge = ffi.load('weaver.so')
+gobridge = ffi.load('libgozerian.so')
 
 -- In the real code, we will create one handler per worker per "proxy".
 -- We could do this by reading configs and even by passing them to the gateway.
