@@ -1,5 +1,4 @@
 local common = {}
-local ffi = require('ffi');
 
 -- Go passes body data back to us in chunks that it allocates, and then
 -- lets us access and requires that we free. This simplifies the Lua / C / Go
