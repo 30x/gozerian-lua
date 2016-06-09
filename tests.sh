@@ -1,5 +1,5 @@
 #!/bin/bash
 echo events
-./bustedjit ./tests/events.lua
+./tests/bustedjit ./tests/index.lua
 echo c
-./bustedjit ./tests/lua2go.lua
+./tests/bustedjit ./tests/lua2go.lua

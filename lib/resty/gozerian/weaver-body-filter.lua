@@ -1,4 +1,4 @@
-local common = require('./weaver-common')
+local common = require('./lib/resty/gozerian/weaver-common')
 
 if not (ngx.ctx.notProxying == 1) then
   -- We could get here after a DONE or or WBOD or RBOD command
