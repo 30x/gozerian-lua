@@ -1,7 +1,7 @@
 local ngx = {}
 describe("index construction", function()
-
-  local index  = require('./lib/resty/gozerian/index')
+  package.path = package.path .. ";./lib/resty/gozerian/?.lua"
+  local index  = require('index')
   it('init',function()
     index.init()
   end)

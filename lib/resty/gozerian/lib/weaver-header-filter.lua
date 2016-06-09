@@ -1,5 +1,5 @@
-local c = require('./lib/resty/gozerian/c')
-local common = require('./lib/resty/gozerian/weaver-common')
+local c = require('lib.c')
+local common = require('lib.weaver-common')
 
 function setResponseHeaders(headers)
   local lower_headers = {}
