@@ -1,4 +1,4 @@
-local ffi = require('ffi');
+ffi = require('ffi');
 ffi.cdef[[
   void GoCreateHandler(const char* id, const char* configURI);
   void GoDestroyHandler(const char* id);
@@ -20,7 +20,7 @@ ffi.cdef[[
   void GoSendResponseBodyChunk(
     unsigned int id, int last, const void* chunk, unsigned int len);
 ]]
-local gobridge = ffi.load('libgozerian.so')
+gobridge = ffi.load('libgozerian.so')
 
 -- In the real code, we will create one handler per worker per "proxy".
 -- We could do this by reading configs and even by passing them to the gateway.
