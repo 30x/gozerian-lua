@@ -30,3 +30,5 @@ if not (cfgErr == nil) then
   print('Error loading configuration: ', errMsg)
   ffi.C.free(cfgErr)
 end
+
+return gobridge
