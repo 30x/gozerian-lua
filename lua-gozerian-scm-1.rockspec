@@ -1,6 +1,6 @@
 
  package = "lua-gozerian"
- version = "scm-2"
+ version = "scm-1"
  source = {
     url = "git://github.com/30x/lua-gozerian"
  }
