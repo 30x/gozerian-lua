@@ -1,7 +1,7 @@
 local gozerian = {}
-local gobridge
 function gozerian.init()
   gobridge = require('lib.init-weaver')
+  return gobridge
 end
 
 function gozerian.body_filter()
