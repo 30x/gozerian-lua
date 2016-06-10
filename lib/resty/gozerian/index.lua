@@ -1,6 +1,6 @@
 local gozerian = {}
 function gozerian.init()
-  gobridge = require('weaver-init')
+  gobridge = require('init-weaver')
   return gobridge
 end
 
