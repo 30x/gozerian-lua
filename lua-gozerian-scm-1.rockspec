@@ -22,7 +22,7 @@
     },
     install = {
       lua = {
-        ["init-weaver"] = "lib/resty/gozerian/init-weaver.lua",
+        ["weaver-init"] = "lib/resty/gozerian/weaver-init.lua",
         ["c"] = "lib/resty/gozerian/c.lua",
         ["weaver-body-filter"] = "lib/resty/gozerian/weaver-body-filter.lua",
         ["weaver-common"] = "lib/resty/gozerian/weaver-common.lua",
