@@ -6,7 +6,6 @@
 
 local lua2go = {}
 
-local ffi = require('ffi')
 
 ffi.cdef[[
   // standard Go definitions //
