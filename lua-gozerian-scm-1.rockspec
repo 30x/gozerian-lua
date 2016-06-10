@@ -22,12 +22,12 @@
     },
     install = {
       lua = {
-        ["lib.init-weaver"] = "lib/resty/gozerian/lib/init-weaver.lua",
-        ["lib.c"] = "lib/resty/gozerian/lib/c.lua",
-        ["lib.weaver-body-filter"] = "lib/resty/gozerian/lib/weaver-body-filter.lua",
-        ["lib.weaver-common"] = "lib/resty/gozerian/lib/weaver-common.lua",
-        ["lib.weaver-header-filter"] = "lib/resty/gozerian/lib/weaver-header-filter.lua",
-        ["lib.weaver-request"] = "lib/resty/gozerian/lib/weaver-request.lua"
+        ["init-weaver"] = "lib/resty/gozerian/init-weaver.lua",
+        ["c"] = "lib/resty/gozerian/c.lua",
+        ["weaver-body-filter"] = "lib/resty/gozerian/weaver-body-filter.lua",
+        ["weaver-common"] = "lib/resty/gozerian/weaver-common.lua",
+        ["weaver-header-filter"] = "lib/resty/gozerian/weaver-header-filter.lua",
+        ["weaver-request"] = "lib/resty/gozerian/weaver-request.lua"
       }
     }
 

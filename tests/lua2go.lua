@@ -1,6 +1,6 @@
 describe("lua struct conversions", function()
   -- tests go here
-  local c = require("../lib/resty/gozerian/lib/c")
+  local c = require("../lib/resty/gozerian/c")
 
   -- tests
   it("check table with a table", function()

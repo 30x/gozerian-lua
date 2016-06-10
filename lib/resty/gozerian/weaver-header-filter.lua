@@ -1,5 +1,5 @@
-local c = require('lib.c')
-local common = require('lib.weaver-common')
+local c = require('c')
+local common = require('weaver-common')
 
 function setResponseHeaders(headers)
   local lower_headers = {}

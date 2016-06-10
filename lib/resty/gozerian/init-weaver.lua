@@ -1,3 +1,4 @@
+local ffi = require('ffi')
 ffi.cdef[[
   void GoCreateHandler(const char* id, const char* configURI);
   void GoDestroyHandler(const char* id);

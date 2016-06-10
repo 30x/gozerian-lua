@@ -1,18 +1,18 @@
 local gozerian = {}
 function gozerian.init()
-  gobridge = require('lib.init-weaver')
+  gobridge = require('init-weaver')
   return gobridge
 end
 
 function gozerian.body_filter()
-  require('lib.weaver-body-filter')
+  require('weaver-body-filter')
 end
 
 function gozerian.process_request()
-  require('lib.weaver-request')
+  require('weaver-request')
 end
 function gozerian.header_filter()
-  require('lib.weaver-header-filter')
+  require('weaver-header-filter')
 end
 
 return gozerian
