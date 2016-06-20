@@ -1,5 +1,5 @@
 local c = require('c')
-local common = require('weaver-common')
+local common = require('gozerian-common')
 
 -- Turn on lots of printing out
 --ngx.ctx.debug = true

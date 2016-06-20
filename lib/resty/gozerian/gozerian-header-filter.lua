@@ -1,5 +1,5 @@
 local c = require('c')
-local common = require('weaver-common')
+local common = require('gozerian-common')
 
 function setResponseHeaders(headers)
   local lower_headers = {}
