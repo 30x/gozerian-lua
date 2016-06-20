@@ -18,7 +18,7 @@
  build = {
     type = "builtin",
     modules = {
-      ["lua-gozerian"] = "lib/resty/gozerian/index.lua"
+      ["lua-gozerian"] = "lib/resty/gozerian/lua-gozerian.lua"
     },
     install = {
       lua = {
