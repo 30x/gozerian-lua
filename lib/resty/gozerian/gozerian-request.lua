@@ -71,7 +71,7 @@ end
 -- Reusable functions above. Main code starts here.
 
 -- The ID identifies the request in the Go process. It will be released in the body filter.
-local handler = ngx.ctx.handler
+local handler = ngx.var.goz_pipe
 local id = gobridge.GoCreateRequest(handler)
 ngx.ctx.id = id
 local rid = gobridge.GoCreateResponse(handler)
