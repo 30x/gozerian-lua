@@ -1,3 +1,8 @@
+if ngx.ctx.id == nil then -- should never happen, but just in case...
+  print('Invalid request id.')
+  return
+end
+
 local common = require('gozerian-common')
 
 if not (ngx.ctx.notProxying == 1) then
