@@ -24,11 +24,11 @@ gobridge = ffi.load('libgozerian.so')
 
 -- In the real code, we will create one handler per worker per "proxy".
 -- We could do this by reading configs and even by passing them to the gateway.
-local cfgErr = gobridge.GoCreateHandler('default', 'urn:weaver-proxy:unit-test')
-if not (cfgErr == nil) then
-  local errMsg = ffi.string(cfgErr)
-  print('Error loading configuration: ', errMsg)
-  ffi.C.free(cfgErr)
-end
+--local cfgErr = gobridge.GoCreateHandler('default', 'urn:weaver-proxy:unit-test')
+--if not (cfgErr == nil) then
+--  local errMsg = ffi.string(cfgErr)
+--  print('Error loading configuration: ', errMsg)
+--  ffi.C.free(cfgErr)
+--end
 
 return gobridge
